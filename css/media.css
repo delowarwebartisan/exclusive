@@ -1,0 +1,283 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*nav part start*/
+#navbar_menu ul li ,.nav_icon2 {
+ text-align: right;
+}
+.search_fram{
+	justify-content: right;
+	text-align: right;
+}
+.search_box{
+
+ 	width: 70%;
+  
+}
+.search_btn {   
+    top: 245px;
+    right: 17px;
+}
+.slide_cont a{
+	text-align: center;
+}
+.slid_icon {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+.banner_nav a {
+    font-size: 10px;
+}
+  .slide_cont {
+    text-align: center;
+  }
+.p_txt {
+  text-align: center !important;
+  font-size: 18px !important; 
+}
+.ban_a {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.carousel-control-prev{
+	right: 300px;
+}
+.feture_left_icon, .feture_right_icon {  
+    top: 1420px;
+   
+}
+.view_btn {
+    
+    
+    width: 70%;
+}
+
+
+
+/*nav part end*/
+/*flash  part start*/
+.flas_h4{
+	font-size: 25px;
+	padding: 0px;
+}
+/*flash  part end*/
+.category_h4{
+	font-size: 15px;
+}
+.top_nav_bar{
+	position: relative;
+}
+.logo{
+	
+	padding-left: 50px;
+}
+.side_nav{
+	position: absolute;
+	top: 145px;
+	left: 0px;
+	z-index: 1111;
+	background: white;
+	padding: 0px;
+	
+}
+/*footer start*/
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 110px;
+}
+.footer_part{
+	text-align: center;
+}
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*nav part start*/
+.top_cont p{
+	font-size: 8px;
+	
+}
+#navbar_menu ul li , .nav_icon2 {
+ text-align: right;
+}
+.search_fram{
+	justify-content: right;
+	text-align: right;
+}
+.search_box{
+
+ 	width: 40%;  
+}
+.search_btn {   
+    top: 245px;
+    right: 41px;
+}
+.banner_nav a {
+    font-size: 10px;
+}
+.p_txt {
+    font-size: 20px !important;
+}
+.ban_a{
+  padding-left: 20px;
+}
+
+
+/*nav part end*/
+/*flash  part start*/
+.flas_h4{
+	font-size: 10px;
+}
+/*flash  part end*/
+.view_btn {  
+  width: 40%;
+    
+}
+.category_h4{
+	font-size: 18px;
+}
+.top_nav_bar{
+	position: relative;
+}
+.logo{
+	
+	padding-left: 50px;
+}
+.side_nav{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	z-index: 1111;
+	background: white;
+	
+}
+/*footer start*/
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 260px;
+}
+.footer_part{
+	text-align: center;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*nav part start*/
+.top_cont p{
+	font-size: 14px;
+	padding-top: 10px;
+}
+#navbar_menu ul li ,.nav_icon2 {
+ text-align: right;
+}
+.search_fram{
+	justify-content: right;
+	text-align: right;
+}
+.search_box{
+
+ 	width: 40%;
+  
+}
+.search_btn {   
+    top: 245px;
+    right: 41px;
+}
+.top_nav_bar{
+	position: relative;
+}
+.logo{
+	
+	padding-left: 50px;
+}
+.side_nav{
+	position: absolute;
+	top: 95px;
+	left: 0px;
+	z-index: 1111;
+	background: white;
+
+}
+/*nav part end*/
+/*banner slide part start*/
+.banner_nav a {
+    font-size: 12px;
+}
+.slid_img img {
+    padding-top: 75px;
+}
+/*banner slide part end*/
+/*flash  part start*/
+.view_btn {  
+  width: 40%;
+}
+/*footer start*/
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 260px;
+}
+.footer_part{
+	text-align: center;
+}
+
+}
+/* Extra large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ /*footer start*/
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.footer .footer_head h2{
+  font-size: 17px;
+  
+}
+.sosial_icon i{
+  padding: 12px 6px;
+}
+
+}
+
+/* Extra large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+ .input_wrapper{
+ position: relative; 
+}
+
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 120px;
+}
+}

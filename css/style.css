@@ -1,0 +1,309 @@
+body{
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+a{
+	list-style: none;
+}
+
+
+/*headder section part start*/
+.tex_col{
+	color: lightgray;
+}
+
+.nav_part{
+  border-bottom: 1px solid gray;
+}
+
+#navbar_menu ul li a{
+ border-bottom: 1px solid transparent;
+ transition: all linear .33s;
+}
+#navbar_menu ul li a:hover,.ban_side_nav ul li a:hover {
+  color:red;
+  border-bottom: 1px solid red;
+  transition: all linear .33s;
+}
+
+.search_box{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  border: 0px;
+  background: #F5F5F5;
+  color: lightgray;
+  position: relative;
+  
+}
+.search_btn{
+	position: absolute;
+	top: 40px;
+	right: 85px;
+  transform: translateY(-50%);
+	border: 0px;
+  background: transparent;
+}
+.icon_trolley{
+  padding-left: 10px;
+}
+
+/*headder section part end*/
+/*banner section part start*/
+
+
+/*banner right*/
+.carsol_btn [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; 
+  background-color: #fff;
+
+}
+.carsol_btn .active {
+   background-color: red;
+   outline:none;
+   border: 2px solid white;
+   margin: 8px 0px;
+}
+
+.slid_body{
+  background: #000000;
+}
+.slide_cont .slid_icon i{
+ font-size: 40px;
+ padding-right: 20px;
+}
+.slid_img img {
+
+ padding-top: 20px;
+  
+}
+.p_txt {
+  font-size: 36px;
+}
+
+
+/*banner section part end*/
+/*flash section part start*/
+.flash_box{
+  width: 20px;
+  height: 35px;
+  border-radius: 5px;
+}
+.flash_img {
+  position: relative;
+  transition: all linear .33s;
+}
+.flash_img .flash_image{
+  
+}
+.flash_img .off_pers{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.flash_img .flash_icon1, .flash_img .flash_icon2{
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.flash_img .flash_icon2{
+  top: 5%;
+}
+
+.add_card{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  background: black;
+  display: none;
+  transition: all linear .33s;
+}
+.flash_img:hover{
+  box-shadow: 0px 0px 10px 0px #888888;
+  transition: all linear .33s;
+}
+.flash_img:hover .add_card{
+  display: block;
+  transition: all linear .33s;
+}
+
+.view_btn {
+  transition: all linear .33s;
+  display: block;
+  margin: 30px auto;
+  width: 20%;
+}
+.view_btn:hover{
+  box-shadow: 2px 2px 10px 0px #888888;
+  transition: all linear .33s;
+}
+.btn_icon{
+  position: relative;
+}
+.feture_left_icon, .feture_right_icon
+,.category_left_icon, .category_right_icon {
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: lightgray;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 1;
+}
+
+.flash_body{
+  border-bottom: 1px solid lightgray;
+}
+.bestsel_body{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+/*flash section part end*/
+/*category section part start*/
+.category_card{
+  border: 1px solid lightgray;
+  padding: 30px 0px;
+  transition: all linear .33s;margin-bottom: 30px;
+}
+.ctegory_icon{
+  font-size: 50px;
+}
+.category_card:hover{
+  background: red;
+  color: white;
+  transition: all linear .33s;
+}
+.btn_category{
+  position: relative; 
+}
+/*category section part end*/
+/*category slid section part end*/
+.cate_sli_cir{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 10px; 
+}
+.btn_buy_now{
+  background:#00FF66 ;
+  transition: all linear .33s;
+}
+.btn_buy_now:hover{
+  background: red;
+  transition: all linear .33s;
+}
+
+/*category slid section part end*/
+/*arival section part start*/
+
+.arival_img {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.ariv_img_div{
+  position: relative;
+  overflow: hidden;
+}
+.ariv_img_div .arival_img img{
+  object-fit: cover;
+  object-position: center;
+  transition: all linear .33s;
+}
+.ariv_img_div .arival_img img:hover{
+  transform: scale(1.1);
+  transition: all linear .33s;
+}
+.product_item{
+  margin-bottom: 100px;
+}
+.img_cont{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  margin-right:40%;   
+}
+/*arival section part end*/
+/*delivery section part start*/
+.deli_icon{
+  font-size: 20px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background:black;
+  margin: 0px auto;
+  box-shadow: 0px 0px 0px 10px lightgray;
+}
+
+/*delivery section part end*/
+/*footer css part end */
+.footer{
+  color: lightgray;
+  background: black;
+}
+.footer .footer_head h2{
+  font-size: 20px;
+  color: white;
+}
+
+.get_email input{
+  
+  background: none;
+  border: 1px solid white;
+  padding: 7px ;
+  border-radius: 5px;
+}
+.input_wrapper{
+ position: relative; 
+}
+.get_email .inp_icon{
+  position: absolute;
+  top: 10px;
+  right: 80px;
+}
+
+.footer_cont h6{
+  color: white;
+}
+.footer_cont a{
+  text-decoration: none;
+  color: lightgray;
+}
+.app_link{
+  font-size: 12px;
+}
+.sosial_icon i{
+  padding: 15px 10px;
+}
+.copy_right p a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+
+/*footer css part end */
+
